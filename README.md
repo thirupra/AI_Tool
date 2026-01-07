@@ -117,6 +117,30 @@ docker exec -it ollama ollama list
  
 if u want to delete
 ollama rm deepseek-r1
+
+
+
+\\\\\\\\\\\\\\\\\\\
+
+
+Install:
+Open VS Code
+Go to Extensions (Ctrl+Shift+X)
+Search for: Continue
+Install: Continue - Code Chat & Autocomplete
+Or install via CLI:
+code --install-extension continue.continue
+ 
+STEP 2: Configure Continue to use your DeepSeek model
+Open the Continue Settings
+In VS Code:
+Press Ctrl+Shift+P
+Type: Open Continue: Settings
+Open config.json
+Add this to your models section:
+{"models": [{"title": "DeepSeek Coder V2","provider": "ollama","model": "deepseek-coder-v2"}] } 
+Save the file.
+ 
  
 
 
